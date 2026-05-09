@@ -1,2 +1,3 @@
 # backend_oi
-Backend files
+Backend setup available in repository.
+Run locally using npm install and npm start
