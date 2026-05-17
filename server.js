@@ -10,7 +10,7 @@ app.use(express.json());
 
 // ================= MONGODB CONNECTION =================
 // Compass local DB
-const MONGO_URI = "mongodb://127.0.0.1:27017/outpro";
+const MONGO_URI =  "mongodb://127.0.0.1:27017/outpro";
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log("MongoDB Connected ✅"))
